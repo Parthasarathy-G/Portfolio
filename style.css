@@ -9,7 +9,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  background-image: url("./assets/background.jpg");
+  /* background-image: url("./assets/background.jpg"); */
 }
 
 html {
@@ -25,6 +25,7 @@ p {
 a,
 .btn {
   transition: all 300ms ease;
+
 }
 
 /* DESKTOP NAV */
