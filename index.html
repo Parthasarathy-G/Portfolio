@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="mediaqueries.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
 
-  <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.clouds.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.waves.min.js"></script>
     <style>
       #vanta-container {
         width: 100vw;
@@ -25,20 +25,24 @@
   <body id="Vanda">
     <div id="vanta-container"></div>
  <script>
- VANTA.CLOUDS({
+ VANTA.WAVES({
   el: "#vanta-container",
   mouseControls: true,
   touchControls: true,
   gyroControls: false,
   minHeight: 200.00,
   minWidth: 200.00,
-  cloudShadowColor: 0xcd8724,
-  speed: 0.50
+  scale: 1.00,
+  scaleMobile: 1.00,
+  color: 0x0,
+  waveHeight: 36.50,
+  waveSpeed: 0.50,
+  zoom: 0.65
   })
 </script>
 
       <nav id="desktop-nav">
-      <div class="logo">Parthasarathy Gunasekaran</div>
+      <div class="logo" id="Name">Parthasarathy Gunasekaran</div>
       <div>
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
@@ -77,7 +81,7 @@
         <div class="btn-container">
           <button
             class="btn btn-color-2"
-            onclick="window.open('./assets/resume-example.pdf')"
+            onclick="window.open('./assets/resume-example.pdf')" style="color: white;"
           >
             Download CV
           </button>
@@ -100,7 +104,7 @@
           />
           <img
             src="./assets/insta_logo.png"
-            alt="Instagram"
+            alt="My Instagram profile"
             class="icon"
             onclick="location.href='https://www.instagram.com/parthasarathy_._?igsh=YWpmeWdkanNwZTZ3'"
           />
@@ -127,7 +131,7 @@
                 class="icon"
               />
               <h3>Expertise</h3>
-              <p>1+ years of Academic Knowledge in<br /> Java programming and MySQL</p>
+              <p style="color: white;">1+ years of Academic Knowledge in<br /> Java programming and MySQL</p>
             </div>
             <div class="details-container">
               <img
@@ -136,11 +140,11 @@
                 class="icon"
               />
               <h3>Education</h3>
-              <p>Bachelor of electronics and communication engineering<br />2024 passed out</p>
+              <p style="color: white;">Bachelor of electronics and communication engineering<br />2024 passed out</p>
             </div>
           </div>
           <div class="text-container">
-            <p>
+            <p style="color: white;">
               Imagine a tech-savvy adventurer, that's me! An engineering graduate fired up with enthusiasm, hunting for the perfect entry-level gig to transform my technical know-how into real-world wizardry. I'm not just here for a paycheck; I'm on a quest to make an impact!
 
 My interests? They're like a dazzling constellation of possibilities. I'm obsessed with software sorcery and find myself deeply engrossed in the world of database management systems. What's my mission? It's to master the spells of Java, the enchantments of MySQL, and the alchemy of C programming.
@@ -177,7 +181,7 @@ I'm armed with an arsenal of skills, each a unique tool in my belt:
                 />
                 <div>
                   <h3>Java</h3>
-                  <p>Intermediate</p>
+                  <p style="color: white;">Intermediate</p>
                 </div>
               </article>
               <article>
@@ -188,7 +192,7 @@ I'm armed with an arsenal of skills, each a unique tool in my belt:
                 />
                 <div>
                   <h3>MySQL</h3>
-                  <p>Intermediate</p>
+                  <p style="color: white;">Intermediate</p>
                 </div>
               </article>
               <article>
@@ -199,7 +203,7 @@ I'm armed with an arsenal of skills, each a unique tool in my belt:
                 />
                 <div>
                   <h3>Git & Github</h3>
-                  <p>Intermediate</p>
+                  <p style="color: white;">Intermediate</p>
                 </div>
               </article>
               <article>
@@ -210,7 +214,7 @@ I'm armed with an arsenal of skills, each a unique tool in my belt:
                 />
                 <div>
                   <h3>Amazon web service</h3>
-                  <p>Basic</p>
+                  <p style="color: white;">Basic</p>
                 </div>
               </article>
               <article>
@@ -221,7 +225,7 @@ I'm armed with an arsenal of skills, each a unique tool in my belt:
                 />
                 <div>
                   <h3>Html</h3>
-                  <p>Beginner</p>
+                  <p style="color: white;">Beginner</p>
                 </div>
               </article>
               <article>
@@ -232,7 +236,7 @@ I'm armed with an arsenal of skills, each a unique tool in my belt:
                 />
                 <div>
                   <h3>Css</h3>
-                  <p>Beginner</p>
+                  <p style="color: white;">Beginner</p>
                 </div>
               </article>
             </div>
@@ -248,7 +252,7 @@ I'm armed with an arsenal of skills, each a unique tool in my belt:
                 />
                 <div>
                   <h3>Microsoft Office suite</h3>
-                  <p>Intermediate</p>
+                  <p style="color: white;">Intermediate</p>
                 </div>
               </article>
               <article>
@@ -259,7 +263,7 @@ I'm armed with an arsenal of skills, each a unique tool in my belt:
                 />
                 <div>
                   <h3>Adobe Photoshop</h3>
-                  <p>Intermediate</p>
+                  <p style="color: white;">Intermediate</p>
                 </div>
               </article>
               <article>
@@ -270,7 +274,7 @@ I'm armed with an arsenal of skills, each a unique tool in my belt:
                 />
                 <div>
                   <h3>Canva</h3>
-                  <p>Intermediate</p>
+                  <p style="color: white;">Intermediate</p>
                 </div>
               </article>
               <article>
@@ -281,7 +285,7 @@ I'm armed with an arsenal of skills, each a unique tool in my belt:
                 />
                 <div>
                   <h3>Adobe premier pro</h3>
-                  <p>Intermediate</p>
+                  <p style="color: white;">Intermediate</p>
                 </div>
               </article>
             </div>
