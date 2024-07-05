@@ -9,7 +9,7 @@
   #contact,
   #projects {
     height: fit-content;
-  }f
+  }
 }
 
 @media screen and (max-width: 1200px) {
@@ -80,6 +80,7 @@
   }
   .logo {
     font-size: 1.5rem;
+    color: white;
   }
   .nav-links {
     flex-direction: column;

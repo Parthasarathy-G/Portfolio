@@ -6,24 +6,34 @@
   margin: 0;
   padding: 0;
 }
-#Name{
-    font-style:italic;
-    color: white;
+
+.nav-links-container {
+  background-color: transparent;
 }
+
+#about {
+  color: white;
+  padding-top: 10%;
+}
+
+#Name {
+  font-style: italic;
+  color: white;
+}
+
 body {
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
 }
 
 html {
-  scroll-behavior: smooth;  
+  scroll-behavior: smooth;
 }
-#about{
+
+#profile {
   color: white;
 }
-#profile{
-  color: white;
-}
+
 p {
   color: rgb(85, 85, 85);
 }
@@ -41,34 +51,42 @@ a,
 nav,
 .nav-links {
   display: flex;
+
 }
 
 nav {
   justify-content: space-around;
   align-items: center;
-  height: 17vh;
+  height: 10vh;
+  top: 0%;
+  z-index: 1000;
 }
 
 .nav-links {
-  gap: 2rem;
+  gap: 4rem;
   list-style: none;
   font-size: 1.5rem;
 }
 
-#Expertise{
+#Expertise {
+  padding-top: 10%;
+  color: white;
+  justify-content: last baseline;
+
+}
+
+#article-container {
   color: white;
 }
 
-#article-container{
+.text-container {
   color: white;
 }
-.text-container{
-color: white;
-}
+
 a {
   color: rgb(255, 255, 255);
   text-decoration: none;
-  text-decoration-color:white;
+  text-decoration-color: white;
 }
 
 a:hover {
@@ -123,15 +141,21 @@ a:hover {
   overflow: hidden;
   transition: all 0.3 ease-in-out;
 }
-#contact{
+
+#contact {
   color: white;
 }
-#certificates{
+
+#certificates {
+  padding-top: 10%;
   color: white;
 }
-#projects{
+
+#projects {
   color: white;
+  padding-top: 8%;
 }
+
 .menu-links a {
   display: block;
   padding: 10px;
@@ -398,8 +422,8 @@ article .icon {
 
 .project-img {
   border-radius: 2rem;
-  width: 80%;
-  height: 80%;
+  width: 50%;
+  height: 50%;
 }
 
 .project-title {
