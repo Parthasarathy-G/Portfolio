@@ -98,6 +98,7 @@ a:hover {
 }
 
 .logo {
+  
   font-size: 2rem;
 }
 
@@ -307,7 +308,7 @@ section {
 }
 
 .btn-color-2 {
-  background: rgb(255, 128, 0);
+  background: orangered;
 }
 
 .btn-color-2:hover {
